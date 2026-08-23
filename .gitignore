@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments and IDEs
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+
+# Local configuration and secrets
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+
+# Datasets, media, and generated outputs
+/data/
+/datasets/
+mydata/
+mydata_YOLO_clean/
+runs/
+wandb/
+*.mp4
+*.mov
+*.avi
+*.zip
+*.cache
+*.log
+
+# Training and conversion artifacts
+*.pt
+*.ptl
+*.pth
+*.weights
+*.onnx
+*.engine
+*.torchscript
+
+# OS files
+.DS_Store
+Thumbs.db

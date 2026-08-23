@@ -1,0 +1,4 @@
+{
+  "alert_threshold": 15,
+  "overlap_threshold": 0.2
+}
